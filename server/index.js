@@ -169,6 +169,8 @@ if (!process.env.VERCEL) {
   });
 }
 
+export default app;
+
 // app.listen(PORT, () => {
 //   console.log(`API portfolio démarrée sur le port ${PORT}${dryRun ? " (DRY RUN)" : ""}`);
 // });
